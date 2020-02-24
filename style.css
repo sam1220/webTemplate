@@ -197,6 +197,9 @@ label{
     top:50%;
     transform:translateY(-52%);
 }
+.text > p{
+    font-size:11pt;
+}
 .content2{
     width:30%;
 }
@@ -260,6 +263,11 @@ label{
 }
 .intro input,textarea{
     margin:10px;
+}
+@media screen and (min-width:600px) {
+    .text > p{
+        font-size: 14pt;
+    }
 }
 @media screen and (min-width:1006px){
     body{
